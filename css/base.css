@@ -1,0 +1,37 @@
+header {
+  background-color: #FFF;
+}
+
+main {
+  background-color: #DAF7A6;
+}
+
+footer{
+  background-color: #203E78;
+  width: 100%;
+  height: 50px;
+}
+
+h1 {
+  margin-left: 1em;
+}
+
+#title {
+  margin-top: -0.96em;
+  margin-left: 2em;
+}
+
+#profile-pic {
+  border-radius: 100%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  margin-left: 3em;
+}
+
+.name-title {
+  color: #203E78;
+}
+
+.nav-li {
+  color: #203E78;
+}
