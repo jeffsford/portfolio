@@ -28,6 +28,10 @@ h1 {
   margin-left: 3em;
 }
 
+#nav-main {
+  float: right;
+}
+
 .name-title {
   color: #203E78;
 }
