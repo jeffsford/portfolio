@@ -5,7 +5,7 @@
   clear: both;
 }
 
-nav:hover {
+#nav-ul:hover {
   display: block;
 }
 
