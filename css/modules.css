@@ -5,10 +5,6 @@
   clear: both;
 }
 
-#nav-ul:hover {
-  display: block;
-}
-
 .icon-menu:before {
   content:"\2630";
   color: #203E78;
@@ -25,6 +21,7 @@
   font-size: 1.5em;
   padding: .5em .2em;
   list-style: none;
+  display: none;
 }
 
 @media (min-width: 800px) {
