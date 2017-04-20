@@ -4,11 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeff Ford - Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/modules.css"/>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/base.css"/>
     <link rel="stylesheet" href="css/layout.css"/>
+
+    <script id="article-template" type="text/x-handlebars-template">
+      <h2 id="title">{{title}}</h2>
+      <a href="{{link}}"><img src="{{image}}" alt=""></a>
+      <div class="byline">
+      Deployed on - <time pubdate datetime="2000-01-01">{{deployedOn}}</time>
+      </div>
+      <section class="article-body">{{body}}</section>
+    </script>
 
   </head>
   <body>
@@ -31,11 +42,15 @@
         <h2>About Jeff</h2>
         <article id="about-text"></article>
       </div>
+      <section id="articles" class="tab content"></section>
+  <section id="about" class="top content">
     </main>
     <footer>
     </footer>
 
-
+    <script type="text/javascript" src="js/projectData.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/projectView.js"></script>
+
   </body>
 </html>
