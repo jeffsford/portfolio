@@ -35,3 +35,12 @@ h1 {
 .nav-li {
   color: #203E78;
 }
+
+.byline {
+  padding-bottom: 1em;
+  font-style: italic;
+}
+
+.article-body {
+  padding-bottom: 5em;
+}
