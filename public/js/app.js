@@ -1,4 +1,7 @@
 'use strict';
+//Refactor functions to lexical arrow functions
+//Use FP concepts and JS array methods to organize and/or manipulate my data
+//Wrap files in IFFE where necessary
 
 var articles = [];
 
